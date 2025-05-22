@@ -1,0 +1,87 @@
+lesson 1: What is HTML & how the web works
+
+What is html?
+HTML(HyperText Markup Language) is the language that structures content on the web. 
+it tells the browser what to show, not how to show it (that's css Job).
+
+ex. 
+<p>THis is paragraph of text.</p>
+
+What happens when you open a website?
+1. you type www.example.com into the browser.
+2. the browser sends a request to a server.
+3. the server responds with HTML (and may be CSS/JS.)
+4. Your browser reads the HTML and displays it.
+
+Lesson 2: Basic HTML page structure
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>My first web page</title>
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    <p>This is my first HTML page.</p>
+
+</body>
+</html>
+
+breakdown: 
+<!DOCTYPE html>: Declares the HTML version
+<html> : wraps the whole page
+<head> : info about the page(not shown to users)
+<body>: All visible content (text, image, links, etc)
+
+Task1: create your first html page
+1. open VS code or any text editor.
+2. create a file called index.html.
+3. paste the above html code.
+4. open the file in a browser (double click it).
+#if the page shows, "Hello word" -Great Job!
+
+lesson 3: HEading and paragraphs
+
+<h1>This is an H1 heading </h1>
+<h2>THis is an h2 heading</h2>
+<h3> THis is an H3 </h3>
+
+<p>THis is a paragraph. Paragaphs are used to write normal text.</p>
+
+-headings go from <h1>(largest) to <h6>(smallest).
+-use <p> to write normal text.
+
+Task2:
+-add a page title, 3 heading (like your name, job goal, favorite quote),and one paragraph.
+
+tip:
+Use Indentation to make your HTML clean and readable
+
+
+Lesson 4: Lists
+unordered list:
+<ul>
+    <li>Python</li>
+    <li>Django</li>
+    <li>HTML</li>
+</ul>
+
+ordered List:
+<ol>
+    <li>Learn Html</li>
+    <li>Learn CSS</li>
+    <li>Learn Django</li>
+</ol>
+
+Use lists when you want to show items in sequence or bullet format.
+
+Task 3:
+-add a list of your top 3 goals (ordered list)
+-add a list of your favorite technologies (unordered list)
+
+Recap:
+we learned:
+-what Html is and how it works
+-basic structure of a web page
+-headings, paragraphs, and lists
