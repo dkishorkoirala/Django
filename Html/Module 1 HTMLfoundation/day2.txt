@@ -1,0 +1,57 @@
+Lesson 4: Lists in HTML
+Tags:
+
+<ul> - unordered list (bullets)
+<ol> - ordered list (numbers)
+<li> = list them
+
+ex.
+<h3>My Goals</h3>
+<ol>
+    <li>Learn HTML</li>
+    <li>master Django</li>
+    <li>Build Projects</li>
+</ol>
+
+<h3>Favorite Foods</h3>
+<ul> 
+    <li>Pizza</li>
+    <li>Biryani</li>
+    <li>Chocolate</li>
+</ul>
+
+-mini task: Make an unordered list  of your Favorite hobbies and an ordered list of your learning path
+
+lesson 6: Links and Navigation
+tags:
+-<a href = "URL"> Text</a>
+-target= "_blank" to open in new tab
+-#id for internal anchor Links
+
+ex.
+
+<p>Visit<a href = "https://www.w3school.com" target ="_blank">w3school</a>.</p>
+<p> <a href= "#footer">Jump to footer</a></p>
+<h2 id = "footer">Footer section</h2>
+
+mini task= create a mini Navigation section with 3 links (e.g Home, about, contact) that point to real or dummy
+URLs
+
+Lesson 7: image in HTML
+tage:
+<img src = "path" alt = "description">
+-width, hight attributes
+-relative vs absolute paths
+
+ex.
+<img src = "profile.jpg" alt = "My photo" width = "200">
+<img src = "https://via.placeholder.com/150" alt = "Placeholder">
+
+mini task: add two images- one from your local folder (or placeholder),
+one from an external URL. Includer description alt text.
+
+summary of today's lesson:
+1. text formatting
+2. Lists
+3. Links
+4. Images 
