@@ -1,0 +1,75 @@
+why is matters:
+
+semantic HTML helps:
+-Browsers understand your content
+-Search engines rank you better (SEO)
+-Screen Readers assist users with disabilities
+-you write cleaner, easier- to-maintain code
+
+lesson 1: What is Semantic HTML?
+Semantic elements clearly describe their meaning in a human- and machine-readable way
+ex. include
+semantic-> <header>,<footer>,<article>,<section>
+non-semantic-> <div>, <span>
+
+semantic code:
+<header>\
+    <h1>Welcome to Reyzual's world</h1>
+</header>
+
+<main>
+    <article>
+        <h2>My Journey</h2>
+        <p>I started learning web development with passion.</p>
+    </article>
+</main>
+
+<footer>
+    <p>© 2025 Reyzual</p>
+</footer>
+
+Task:
+make a simple semantic layout of a personal blog structure:
+    -<header> with site name
+    -<nav> with a few links
+    -<main> with a <section> for "about me"
+    -<footer> with copyright
+
+Lesson 2: Semantic page structure
+use semantic elements instead of divs to organize content.
+element-> purpose
+<header> -> Top section, often with title or nav
+<nav>  -> Navigation links
+<main> -> main page content
+<section> -> Group of related content
+<article> -> Independent content block
+<aslide> -> sidebar, related info
+<footer> -> Bottom of the page.
+
+Task:
+Update one of your earlier HTML pages by replacing generic <div>s with:
+
+-<header>, <nav>, <main>, <footer>, etc.
+
+lesson 3: Inline vs Block-level elements
+Block elements start on a new line:
+<div>, <h1>-<h6>, <p>, <ul>, <section>, etc
+
+inline element do not start on a new line:
+<a>, <span>, <strong>, <em>, <img>, etc.
+
+Task: Create a page that mixes inline and block elements:
+-inside a paragraph, use <strong>, <em> and a hyperlink.
+
+Lesson 4: SEO Basics and Meta Tags
+Search engines care about meaningful structure and meta info.
+
+Basic <meta> tags:
+
+<meta name ="description" content = "Reyzual's web Development Journey.">
+<meta name ="keywords" content = "HTML, CSS, Django, Reyzual, Developer">
+<meta name = "author" content = "Reyzual">
+
+Task:
+add meta tags in the <head> of your main page.
+-write a meaningful <title>, <meta description>, and include a <header> with <h1> for the page topic
