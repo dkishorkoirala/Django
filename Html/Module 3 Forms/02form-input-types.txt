@@ -1,0 +1,100 @@
+HTML input types
+now we'll explore different types of <input> for gathering specific kinds of data.
+
+most common input types
+Type   ->    Description
+text   ->    Basic text input
+password ->  Hides characters
+email   -> validates email format
+number  ->  numeric input only
+checkbox    ->  multiple selections
+radio   ->  single selection in a group
+date    ->  pick a date
+submit  ->  submits the form
+
+Example form with multiple input types
+
+<form action="">
+    <label for="email">Email:</label>
+    <input type="email" id ="email" name="email" required><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="0"><br><br>
+
+    <p>Choose your Gender:</p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+
+    <input type="radio" id="male" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <p>Subscribe to newsletter:</p>
+    <input type="checkbox" name="subscribe" id="subscribe">
+    <label for="subscribe">Yes i have subscribed</label><br><br>
+
+    <label for="birthdate">BirthDate:</label>
+    <input type="date" id="birthdate" name="birthdate"> <br><br>
+
+    <input type="submit" value="submit">
+
+</form>
+
+Task: Build a signup form
+includ:
+-email
+-age
+gender(radio button)
+-subscribe(checkbox)
+-birthdate
+-submit button
+
+things to note:
+1. <input> attributes
+-type
+defines what kind of data the input field accepts.
+
+ex. 
+text-> for general text
+email -> validates email format
+password -> hides input characters
+submit -> a button that submits the form
+
+HTML behavior: The browser fchanges the input UI and validation based on the type.
+for ex. , type ="email" will trigger an email-specific keyboard on mobile and
+check for @ during validation.
+
+-id
+Gives the element a unique identifier in the document.
+this is:
+
+-used by the label's for attribute to associate the label with the input
+-useful in javascript or css to target specific elements
+
+-name
+the most important attribute for form inputs submission.
+
+when you submit a form, the data is sent like this:
+username=reyzual&password=12345
+
+that's because of the name= "username" and name ="password" fields.
+under the hood: the browser serializes form data using each input's name as the key.
+
+without name, the input is not included in the submitted data
+
+2. <label for="">
+the for attribute must match the input's id. This creates a connection:
+<label for ="email">Email: </label>
+<input type="email" id ="email" name="email">
+
+under the hood:
+it binds the label to the input, so when we click the label, the input is focused.
+it also improves accessibility for screen readers and form navigation.
+this is part of how HTML provides semantic linking between elements.
+
+summary chart 
+attribute       ->      purpose                     ->    required?
+type            ->  defines the kind of input       -> Yes
+id              ->unique element ID, used by label  -> no(but needed for label for)
+name            ->name of the field for form submit -> Yes
+for             ->links label to input by id        ->No (but best practice)
+

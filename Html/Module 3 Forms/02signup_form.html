@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Form</title>
+</head>
+<body>
+    <p>Please Fill up the Form below to sign up:</p>
+    <main>
+        <form action="/submit">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0"><br><br>
+
+            <p>Tick the correct gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br><br>
+
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Yes, I've subscribed</label><br><br>
+
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" name="birthdate" id="birthdate"><br><br>
+
+            <input type="submit" value="submit">
+
+        </form>
+    </main>
+</body>
+</html>

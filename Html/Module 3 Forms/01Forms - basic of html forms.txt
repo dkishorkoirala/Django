@@ -1,0 +1,63 @@
+Forms: basics of HTML Forms
+why forms matters
+
+- forms allow users to send data to a server- whether it's searching, logging in,
+signing up, or contacting you. It's one of the most crucial parts of any website.
+
+-Basic form syntax:
+<form action = "/submit" method = "POST">
+    <!-- Form inputs go here-->
+</form>
+-action: where the form data is sent(eg. a URL, backend route.)
+-method: how data is sent. Typically:
+    -GET: for sesarch, fileters(adds data to URL)
+    -POST: for login, signup(secure, hides data)
+
+Common Input forms
+<form action = "/submit" method = "POST">
+    <label for = "username">Username:</label>
+    <input type = "text" id = "username" name ="username" required><br><br>
+
+    <label for ="password">Password:</label>
+    <input type ="password" id = "password" name ="password" required><br><br>
+
+    <input type= "submit" value = "login">
+</form>
+
+Task: Build a login Form
+create a login form using:
+-form
+-input type= "text", input type = "password"
+-label
+-submit button
+
+use this base
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/submit-login" method="POST">
+        <label for="username">Username: </label>
+        <input type="text" id = "username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id = "password" name="password" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
+
+
+Goal:
+write your own version of a simple login or signup form
+-be sure to use:
+    -form, action, method
+    -label, input, submit
+    -proper nesting and indentation
