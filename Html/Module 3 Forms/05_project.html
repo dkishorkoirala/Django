@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Contact & Feedback Page</title>
+</head>
+<body>
+    <header>
+        <h1>Personal Contact Form</h1>
+    </header>
+    
+    <nav>
+       <a href="#">Home</a>
+       <a href="#About">About me</a>
+       <a href="#contact">Contact Info</a>
+       <a href="#Feedback">Feedback</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h3>About me</h3>
+            <p>Hi, its me Dibash Kishor Koirala all the way from <b>Biratnagar</b>.<br>A web developer learning skills day by day.</p>
+            <ul>
+                <h4>My Favourite Hobies</h4>
+                <li>Playing guitar</li>
+                <li>Sports Karate</li>
+                <li>Dancing</li>
+            </ul>
+
+            <p>on the otherhand, My Goals are</p>
+            <ol><h4>Goals</h4>
+                <li>Coding</li>
+                <li>Developper</li>
+                <li>Analyst</li>
+            </ol>
+            <p>Thank You!!!</p>
+        </section>
+
+        <section id="contact">
+            <form action="#" method="POST">
+                <fieldset name="contactform" id="contactform">
+                    <legend>Fill Up the form to contact Us</legend>
+                        <br><br>
+                    <label for="email">Email: </label>
+                    <input type="text" name="email" id="email" placeholder="xyz@company">
+                    <br><br>
+
+                    <label for="phone">Phone: </label>
+                    <input type="tel" name="phone" id="phone"  pattern="[0-9]{10}" placeholder="98xxxxxxxx" minlength="10" maxlength="10">
+
+                    <br><br>
+                    
+                    <label for="location">Location:</label>
+                    <input type="text" name="location" id="location" placeholder="City name">
+                    <br><br>
+                    <input type="submit" ><br><br>
+                    <a href="#">Back to top</a>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="Feedback">
+            <form action="#" method="POST">
+                <fieldset name="Feedbackform" id="Feedbackform">
+                    <legend>Feedback Form</legend>
+
+                    <label for="username">Name:</label>
+                    <input type="text" name="username" id="username"><br><br>
+
+                    <label for="useremail">Email:</label>
+                    <input type="email" name="useremail" id="useremail"><br><br>
+
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age">
+
+                    <p>Choose the gender</p>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+
+                    <input type="radio" name="gender" id="others">
+                    <label for="others">Others</label>
+                    <br><br>
+                        <hr>
+                    <p>Tick if you subscribed...</p>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Yes, I've subscribed for the newsletter...</label>
+                        <hr>
+                    <p>Choose your birthdate.</p>
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                    <br><br>
+                        <hr>
+                    <label for="favlang">Choose Your Favourite Programming Language:</label><br><br>
+                        <select name="favlang" id="favlang">
+                            <option value="py">Python</option>
+                            <option value="js">Javascript</option>
+                            <option value="j">Java</option>
+                            <option value="c">C Programming</option>
+                            <option value="c++">C++ programming</option>
+                        </select>                               
+
+                        <hr>
+                    
+                    <label for="comment">Comments:</label>
+                    <textarea name="comment" id="comment" placeholder="Type Your comments here..." minlength="4" maxlength="20" rows="05" cols="30"></textarea>
+                    
+                    <br><br>
+                    <input type="submit" >
+                            <br><br>
+                    <a href="#">Back to top</a>
+                </fieldset>
+                
+            </form>
+        </section>
+    </main>
+    <br><br>
+    <aside>Fun Facts: earth is not flat anymore, cause i can't see next station from here..., i lack humer haha... </aside><br><br>
+    <footer>copyright 2025 Reyzual</footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+Project: Personal Contact & Feedback Page
+
+Goal:
+Create a well-structured, semantic HTML page that includes navigation, user information sections, and a fully functional feedback form.
+
+Project Requirements:
+Page Structure
+* Use semantic tags: `<header>`, `<main>`, `<nav>`, `<section>`, `<footer>`
+* Proper headings and meta tags
+* Navigation links with `#` for scrolling to sections
+
+Content Sections
+
+1. About You
+
+   * Short paragraph about yourself
+   * List of favorite hobbies (unordered)
+   * Learning goals (ordered list)
+
+2. Contact Info
+
+   * Include placeholder info like email, phone, location
+
+3. Feedback Form
+
+   * Inputs:
+
+     * Name (with validation)
+     * Email
+     * Age (number)
+     * Gender (radio)
+     * Subscribe checkbox
+     * Birthdate
+   * Dropdown (favorite programming language)
+   * Textarea for comments
+   * Submit button
+
+Extra Touches
+
+* Use `<fieldset>` and `<legend>` in your form
+* All `<label>` tags correctly connected via `for`
+* Form should use `action="#"` and method `POST` (for now)
+
+
+
+Bonus Challenge:
+Add an `<aside>` with a fun fact or quote and include global attributes like `title`, `lang`, or `style` somewhere for practice.

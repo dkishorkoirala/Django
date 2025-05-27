@@ -1,0 +1,39 @@
+Form Grouping- <fieldset>, <legend>, <label>
+
+what will we cover:
+-Grouping form inputs makes forms:
+    -easier to read
+    -more accessible(especially for screen readers)
+    -better structured
+
+1. <fieldset>
+-groups related form inputs.
+-Visually creates a box around the group.
+
+ex. 
+<fieldset>
+    <legend>Personal Info</legend>
+
+    <label for= "fullname">Full Name: </label>
+    <input type = "text" id ="fullname" name = "fullname"><br> <br>
+
+    <label for="email">Email: </label>
+    <input type= "email" id = "email" name = "email">
+</fieldset>
+
+2. <legend>
+-The caption/title for the <fieldset>
+-always goes inside the <fieldset> tag, right after it opens.
+
+#why use these?
+-improves accessibility for screen readers.
+-Gives a clear visual structure
+-Helps organize long or complex forms
+
+Task for today
+-create a form that includes:
+    1. a <fieldset> with <legend> labeled "User details"
+    2. input fields: Full Name, Email, Password
+    3. A second <fieldset> wiht <legend> "Preferences"
+    4. two radio buttons for preferred contact method (Email, Phone)
+    5. submit button

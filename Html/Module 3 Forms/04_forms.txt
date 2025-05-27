@@ -1,0 +1,41 @@
+Dropdowns, textareas, and input validataion.
+1. Dropdown lists: <select> and <option>
+Used when users must pick one(or more) options from a predefined list.
+
+basic example:
+<label for = "country">Choose your country:</label>
+<select name = "country" id = "country">
+    <option value = "np">Nepal</option>
+    <option value = "in">Indial</option>
+    <option value = "us">United states</option>
+    <option value= "uk">United Kingdom</option>
+</select>
+
+2. Textarea for long text: <textarea>
+-used for comments, description, messages, etc.
+
+example:
+<label for = "message">Your message:</label>
+<textarea id = "message" name = "message" rows = "5" cols = "40" placeholder= "Type your message here..."></textarea>
+
+3. Input validation Attributes:
+-these are built-in client-side validators:
+Attribute               ->  purpose
+required                -> field must be filled before submitting.
+min/max                 -> minimum and maximum values(e.g. for number or date)
+minlength/maxlength     -> controls length of input(eg. text, password)
+pattern                 -> Regex pattern that the value must match.
+
+ex.
+<input type="text" name="username" required minlength="4" maxlength="12" pattern="[a-zA-Z0-9]+">
+-this accepts 4-12 characters with only letters and digits.
+
+practice exercise:
+Build a mini feedback form using all these:
+-requirements:
+    - Dropdown to select favorite programming language,
+    - A <textarea> for comments.
+    - A name field with required and pattern validation
+    - use minlength, max length and required somewhere.
+    - add a submit button
+
