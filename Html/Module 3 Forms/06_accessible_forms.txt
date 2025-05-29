@@ -1,0 +1,22 @@
+Day 15: Accessible Forms
+topics to cover
+
+1. the label element and for attribute
+    -links lable text to input elements(id must match for )
+    -screen readers use this connection
+2. Keyboard Navigation
+    -use tabindex, correct HTML order
+3. hidden inputs
+    - <input type="hidden"> - used to send invisible data (like a user ID)
+4. Field Grouping with <fieldset> and <legend>
+    -helps screen readers announce context of grouped inputs
+5. aria -*attribute (optional into)
+    -for more complex cases, like dynamic elements
+
+Practice Task:
+Build a user preferences Form that includes:
+-grouped inputs with fieldset and legend
+-properly associated label + input
+-one hidden input (eg., userid)
+-at least one radio group and one checkbox
+-accessible structure(keyboard-friendly)
