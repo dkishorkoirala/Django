@@ -1,0 +1,49 @@
+Module 4: Tables 
+today's focus : table basics
+
+we will learn:
+how to structure tables using:
+-<table>
+-<tr> - table row
+-<td> - table data
+-<th> - table header
+-Basic table layout and alignment
+
+structure:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study schedule</title>
+</head>
+<body>
+    <h2>My weekly Study schedule</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Hours Planned</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Html Forms</td>
+            <td>2hrs</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Html Tables</td>
+            <td>2.5</td>
+        </tr>
+        <!-- Add more rows for other days -->
+    </table>
+</body>
+</html>
+
+
+task: Recreate this table or personalize it with your actual weekly
+HTML topics and study hours. once you're done we will move ahead to 
+advanced tables(like colspan, rowspan, and captions) next.
