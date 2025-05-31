@@ -1,0 +1,16 @@
+Create a table comparing 3 different web hosting plans with these features:
+
+Feature	            Basic Plan	Pro Plan	Business Plan
+Storage	            10 GB	     50 GB	    200 GB
+Bandwidth	        100 GB	    500 GB	    Unlimited
+Free Domain	        ❌	       ✅ 	        ✅
+SSL Certificate	    ✅	        ✅	        ✅
+Email Accounts	    1	        10	            100
+Monthly Price	    $3.99	    $7.99	       $15.99
+
+Your Mission:
+Complete the <tbody> section.
+
+Keep the structure clean and semantic.
+
+Use either ✅/❌ or just text where needed.

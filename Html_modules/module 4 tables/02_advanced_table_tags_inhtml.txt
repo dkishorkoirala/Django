@@ -1,0 +1,46 @@
+1. <caption> - table title
+-what it does: Adds a title to your table.
+-where to put it: Right after the <table> tag, before your rows(<tr>).
+
+html
+<table>
+    <caption>Weekly Study Pal</caption>
+    ...
+</table>
+
+2. Colspan- merge columns.
+what it does: makes a cell stretch across multiple columns.
+why: useful for section headings that span more than one columns
+ex
+<tr>
+    <th colspan = "2">Study Plan</th>
+</tr>
+this will make a single cell that covers the space of two columns in that row.
+
+3. rowspan- Merge rows
+what is does: makes a cell stretch across multiple rows
+why: helps when the same item (like a day) covers more than one activity.
+
+ex.
+<tr>
+    <td rowspan = "2">Tuesday</td>
+    <td>HTML Tables</td>
+</tr>
+<tr>
+    <td>Practice Tables</td>
+</tr>
+
+This makes "Tuesday" appear just once but span across two rows.
+
+
+use case visual summary:
+imagine you're listing a day (like Tuesday), and under that day there are 
+two sessions:
+
+day     Topic
+Tuesday HTML Tables
+        Practice Tables
+
+we merge the "Tuesday" cell to span both rows using rowspan = "2" so it's 
+more organized and avoids repetition.
+
