@@ -1,0 +1,41 @@
+Embedding images vs CSS background
+
+what we'll learn today
+1. how to use the <img> tag properly
+2. Difference between content image vs decorative images(css)
+3. Best practices for responsiveness and accessibility
+
+1. Using the <img> tag
+The <img> tag is used to embed images into HTML documents.
+
+<img src= "image/profile.jpg" alt = "Profile of a person" width= "300">
+
+attributes:
+src = source url or path to the image
+alt = alternative text (important for screen readers)
+width/height = size in pixels(optional, but better controlled via CSS)
+
+2. Image Use case example
+<h2>My Hobies</h2>
+<img src = "guitar.jpg" alt="a person playing  a guitar" width ="300">
+<p>I enjoy playing guitar</p>
+
+Best Practice Tip:
+use <img> for content images (part of the meaning).
+use CSS background-image for decorative purposes only (like icons, designs).
+
+Example in CSS(we'll learn in css soon):
+body{
+    background-image: url("image/background.jpg");
+}
+
+3. Mini Task - practice challenge:
+create an HTML page Titled "my Favourite Things"THat includes at least 3 images, each with:
+-a proper alt text
+-a caption under each image using <figcaption> and <figure>
+
+ex structure for challenge:
+<figure>
+    <img src = "" alt = "" width = "">
+    <figcaption>Text about image</figcaption>
+</figure>

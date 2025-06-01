@@ -1,0 +1,54 @@
+Global Attributes:(can be used on most HTML elements)
+
+Attribute           Purpose
+id                  Unique identifier for an element.
+Class               Assigns a class name(used with css/js)
+title               tooltip on hover
+style               inline styles
+lang                language of the element(en, fr, etc.)
+
+
+Document and structure tags.
+Tag                 Attribute               Purpose
+<!DOCTYPE>          -                       Declares the html version
+<html>              lang                    sets language
+<meta>              charset                 sets character encoding(UTF-8)
+                    name, content           Meta Info
+<body>              -                       Document content area
+
+Text & formatting.
+Tag                 Attribute               Purpose
+<a>                 href                    Link URL
+                    target                  where to open(_blank)
+<img>               src                     Image URL
+                    alt                     alternative Text(accessibility)
+                    width/height            size of Image
+
+Forms
+Tag                 Attribute               Purpose
+<form>              action                  submission URL
+                    method                  POST/GET
+<input>             type                    input type(text, email, etc.)
+                    name                     input name
+                    id                      Link input to label
+                    value                   pre-filled value(optional)
+                    required                field must be filled
+                    pattern                 regex validation(optional)
+<label>             for                     Binds to an input's id
+<fieldset>          name/id                 Grouping of form fields 
+<select>            name, id                 Drop-down menu settings
+<option>            value, selected         menu item value, default
+<textarea>          rows, cols              size of text area
+
+Tables
+Tag                 Attribute               Purpose
+<table>             border                  visible border(for learning)
+<td>                colspan                 span columns
+                    rowspan                 span rows
+<caption>           -                       Table title
+
+Media(preview)
+Tag                 Attribute                    Purpose
+<img>               src, alt, width, height      content Image
+Css only            background-image             used in CSS for decorative images
+
