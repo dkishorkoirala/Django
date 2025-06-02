@@ -1,0 +1,29 @@
+Html <video> element
+-basic syntax
+<video width ="320" height= "240" controls>
+    <source src = "xyz.mp4" type="video/mp4">
+    Your browser doesnot support the video tag.
+</video>
+
+Explaination:
+width/height= sets the size of the video.
+controls-> adds play, pause, volume, etc.
+<source>-> provides the media file and its format.
+fallback text is shown if the browser doesnot support the tag
+
+Html <audio> element
+-basic syntax
+<audio controls>
+    <source src ="audio.mp3" type="audio/mpeg">
+    Your browser doesnot support the audio tag.
+</audio>
+
+Explaination:
+just like <video>, controls adds play features.
+you can use .mp3, .ogg, or .wav files.
+
+practice:
+Embeds one video(use any .mp4 file you have)
+Embeds one audio file(use any .mp3 file )
+Include fallback text for unsupported browsers
+use semantic tags (<main>,<section>,<h2>, etc.)

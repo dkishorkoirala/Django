@@ -1,0 +1,19 @@
+build a mini media Gallery that combines images, video, and audio while
+also introducing some new attributes like:
+autoplay
+loop
+poster(thumbnails)
+preload(for audio)
+muted( for autoplay)
+
+goal create a simple media gallery webpage with :
+1. Three media types(image, video, audio)
+2. meaning ful use of media-related attributes
+
+attribute highlights:
+Tag             attribute       purpose
+<video>         poster= "..."  show placeholder image before play starts
+                autoplay       automatically starts the video(use muted too)
+                loop           repeats the video endlessly
+<audio>         preload="auto"  loads the audio file when the page loads.
+
