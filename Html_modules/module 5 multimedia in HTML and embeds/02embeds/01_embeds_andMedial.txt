@@ -1,0 +1,39 @@
+we've already don:
+<video>, <audio>, with controls, autoplay, loop, poster
+<figure>, <figcaption>, <img > (great media gallery!)
+
+today
+what is <iframe>? 
+an inline frame <iframe> is used to embed another HTML page or web resource within your current page.
+
+common use cases:
+-youtube video
+-google maps
+-pdfs
+-webpage inside your page
+
+Basic syntax:
+<iframe
+    src = "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    width = "560"
+    height = "315"
+    title="youtube video"
+    allowfullscreen>
+</iframe>
+
+embed a google map:
+<iframe
+    src="https://www.google.com/maps/embed?pb=..."
+    width= "600"
+    height= "450"
+    style="border:0";
+    allowfullscreen=""
+    loading= "lazy">
+</iframe>
+
+practice challenge
+embed any two of the following
+1. A youtube video
+2. A google map of your city or country
+3. a pdf file(if you have one)
+4. a public website(eg. w3schools)
