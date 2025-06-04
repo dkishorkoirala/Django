@@ -1,0 +1,39 @@
+HTML5 v/s HTML4
+Feature             HTML4                        HTML5
+Doctype           long and complex             simple and short
+semantic tags     not supported                yes(<header>,<nav>,<article>,etc)
+audio/video       requires plugins             native <audio> and <video>
+form enhancement    limited                    new input type (email,data, range,etc)
+APIs              No native support            supports web storage, geolocaiton, canvas, etc.
+Deprecated tags   <font>,<center>              removed
+
+html5 Doctype:
+<!DOCTYPE html>
+
+
+defer v/s async in script tags
+when we load javascript in <head., we want to aviod blocking the page render.
+script without attributes:
+<script src = "script.js"></script>
+
+page waits for script to load and execute.
+
+with defer:
+<script src = "script.js" defer></script>
+loads in background, runs after HTML is parsed - best for most cases.
+
+with async:
+<script src = "script.js" async></script>
+loads in background and executes as soon as it's ready, which may interrupt parsing
+
+attribute               load order              execution time          best for
+none                    blocking                as parsed               simple, inline scripts
+defer                   in order                after parsing           DOM-dependent scripts
+async                   Random                  when ready              independent scripts(e.g analytics)
+
+mini task
+1. add this to your html <head>
+<script src="app.js" defer></script>
+
+2. create a basic app.js
+console.log("This JS was loaded with defer!");

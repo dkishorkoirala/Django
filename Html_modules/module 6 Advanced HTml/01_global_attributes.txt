@@ -1,0 +1,26 @@
+What are Global Attributes?
+-Global Attributes are standard HTML Attributes that can be applied to most 
+HTML tags, regardless of their specific role. 
+they're useful for:
+styling(class, id)
+-accessibility(lang, tabindex)
+-custom behavior(data - *)
+-Interactivity(title, hidden)
+
+Common Global Attributes:
+Attribute                 Purpose               Example
+id                  Unique identifier           <div id ="about-me">
+class               Grouping for css/js        <p class = "highlight">
+style               inline css                  <h1 style ="clolr: blue;">
+title               tooltop on hover            <img title="My cat">
+lang                language declaration         <html lang ="en">
+tabindex            keyboard navigation order   <input tabindex ="1">
+hidden              hide an element from view   <div hidden>
+data-*              store custom data(used in JS)   <div data-user="dibash">
+
+mini practice
+try writing a smal snippet using at least 5 global attributes:
+<div id = "intro" class ="box" style ="border: 1px solid gray;" title= "Introduction section" lang="en">
+Hello! this is my intro block.
+</div>
+

@@ -1,0 +1,46 @@
+Meta tags and entities - key for page behavior, seo, and proper text rendering
+
+Meta tags and entities
+
+Part 1: Meta tags(<meta>)
+Meta tags provide metadata (data about the document) inside the <head> section
+
+essential meta tags:
+tags                    Purpose                         Example
+charset             character encoding          <meta charset ="UTF-8"
+name="viewport"     mobile Responsiveness       <meta name="viewport"
+                                                content ="width=device-sidth, initial-scale=1.0">
+name="description"  page summary
+                    (for search engines)        <meta name="description"
+                                                content="Portfolio of Dibash Koirala">
+name="keywords"     Keywords for SEO            <meta name="keywords"
+                                                content="HTML, CSS, web Development">
+name="author"       author's name               <meta name="author" 
+                                                content="Dibash Koirala">
+
+always include charset and viewport in your HTML head!
+
+Part 2: HTML Entities 
+entities let you display special characters that HTML would otherwise interpret as code
+
+common entities:
+character           entity          output
+<                   &lt;            <
+>                   &gt;            >
+&                   &amp;           &
+"                   &quot;          "
+'                   &apos;          '
+©                   &copy;          ©
+₹                   &#8377;         ₹
+
+Example
+<p> THis code is written in &lt;html&gt; language.</p>
+<p>Copyright &copy; 2025 Dibash Koirala</p>
+
+mini task
+add this to your Portfolio's <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Dibash Koirala">
+<meta name="description" content="Official Portfolio of Dibash - HTML Developer">
+<meta name="keywords" content="Dibash, HTML, Portfolio, Developer">

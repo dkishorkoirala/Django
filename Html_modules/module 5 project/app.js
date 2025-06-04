@@ -1,0 +1,1 @@
+console.log("This JS was loaded with defer!");

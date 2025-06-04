@@ -1,0 +1,62 @@
+
+### 🔵 **WEEK 1: Module 1 — HTML Foundations**
+
+| Day | Topic                   | Lessons & Activities                         |
+| --- | ----------------------- | -------------------------------------------- |
+| 1   | Intro to HTML           | What is HTML? Structure of a webpage         |
+| 2   | Basic Structure Tags    | `<!DOCTYPE>`, `<html>`, `<head>`, `<body>`   |
+| 3   | Headings and Paragraphs | `<h1>`–`<h6>`, `<p>`                         |
+| 4   | Text Formatting         | `<strong>`, `<em>`, `<b>`, `<i>`, `<u>`      |
+| 5   | Lists                   | `<ul>`, `<ol>`, `<li>`                       |
+| 6   | Links and Navigation    | `<a>`, `href`, `_blank`, anchor links        |
+| 7   | Images and Comments     | `<img>`, `alt`, formats, `<!-- comments -->` |
+
+---
+
+### 🟢 **WEEK 2: Module 2 — Semantic HTML + Start Module 3 (Forms)**
+
+| Day | Topic                        | Lessons & Activities                                        |
+| --- | ---------------------------- | ----------------------------------------------------------- |
+| 8   | Semantic HTML Intro          | What & why, examples                                        |
+| 9   | Semantic Page Structure      | `<header>`, `<main>`, `<footer>`, etc.                      |
+| 10  | Inline vs Block + SEO Tags   | Meta tags, structure, readability                           |
+| 11  | Forms - Basics               | `<form>`, `action`, `method`                                |
+| 12  | Input Types                  | `text`, `password`, `checkbox`, `radio`, `email`, etc.      |
+| 13  | Form Grouping                | `<fieldset>`, `<legend>`, `<label>`                         |
+| 14  | Select, Textarea, Validation | `<select>`, `<option>`, `<textarea>`, `required`, `pattern` |
+
+---
+
+### 🟡 **WEEK 3: Module 3 Continued + Modules 4 & 5 (Tables & Media)**
+
+| Day | Topic                    | Lessons & Activities                             |
+| --- | ------------------------ | ------------------------------------------------ |
+| 15  | Accessible Forms         | `label for`, keyboard nav, hidden inputs         |
+| 16  | Table Basics             | `<table>`, `<tr>`, `<td>`, `<th>`                |
+| 17  | Advanced Tables          | `<caption>`, `colspan`, `rowspan`, accessibility |
+| 18  | Embedding Images vs CSS  | `<img>` vs background images                     |
+| 19  | Video and Audio Elements | `<video>`, `<audio>`, formats, fallback          |
+| 20  | Embeds                   | `<iframe>`, YouTube, Maps                        |
+| 21  | Review & Mini Challenge  | Quiz + build a product table or media gallery    |
+
+---
+
+### 🟠 **WEEK 4: Advanced HTML + Final Projects**
+
+| Day | Topic                         | Lessons & Activities                       |
+| --- | ----------------------------- | ------------------------------------------ |
+| 22  | Global Attributes             | `id`, `class`, `title`, `style`, `lang`    |
+| 23  | Meta Tags & Entities          | `meta charset`, viewport, `&copy;`, `&lt;` |
+| 24  | HTML5 vs HTML4 + Defer/Async  | `defer`, `async`, best practices           |
+| 25  | Progressive Enhancement       | Core content first, build up from there    |
+| 26  | Final Project 1               | Personal Portfolio (Structure only)        |
+| 27  | Final Project 2               | Form-based Newsletter Signup               |
+| 28  | Final Review + W3C Validation | Check your work, validate code, next steps |
+
+---
+
+## 🧪 Weekly Practices:
+
+* Daily hands-on coding
+* Use real-world examples (e.g., your name, interests, goals)
+* Build projects as you go, not just read
