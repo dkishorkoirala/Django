@@ -1,0 +1,165 @@
+A. Basics & Structure
+1. What does HTML stand for?
+    A. Hyperlinks and Text Markup Language
+    B. Home Tool Markup Language
+    C. HyperText Markup Language
+    D. HyperText Markdown Language
+
+-> C. HyperText Markup Language
+
+2. Which tag is used to define the body of the HTML document?
+    A. <main>
+    B. <body>
+    C. <section>
+    D. <div>
+
+-> B. <body>
+
+3. What tag is used for the largest heading?
+    A. <heading>
+    B. <h6>
+    C. <h1>
+    D. <title>
+
+-> c. <h1>
+
+B. Links & Media
+4. What attribute is used to specify the URL in an anchor tag?
+    A. src
+    B. link
+    C. href
+    D. url
+
+-> C. href
+
+5. Which tag is used to display an image?
+    A. <picture>
+    B. <media>
+    C. <image>
+    D. <img>
+
+-> D. <img>
+
+6. What tag embeds a YouTube video or external webpage?
+    A. <frame>
+    B. <iframe>
+    C. <media>
+    D. <video>
+
+-> b. <iframe>
+
+C. Semantic & Structure
+7. Which tag is semantic?
+    A. <div>
+    B. <span>
+    C. <article>
+    D. <b>
+
+-> c. <article>
+
+8. Where is the <title> tag placed?
+    A. Inside <body>
+    B. After <footer>
+    C. Inside <head>
+    D. Before <html>
+
+-> c. Inside <head>
+
+9. Which tag is NOT semantic?
+    A. <aside>
+    B. <section>
+    C. <nav>
+    D. <font>
+
+-> d. <font>
+
+D.  Forms
+10. Which attribute makes a field mandatory?
+    A. readonly
+    B. checked
+    C. required
+    D. submit
+
+-> c. required
+
+11. Which input type hides characters?
+    A. text
+    B. hidden
+    C. password
+    D. secure
+
+-> c. password
+
+12. Which tag groups related form fields?
+    A. <fieldset>
+    B. <legend>
+    C. <formgroup>
+    D. <group>
+
+-> a. <fieldset>
+
+E. Tables & Lists
+13. Which tag defines a table row?
+    A. <td>
+    B. <tr>
+    C. <table>
+    D. <th>
+
+-> b. <tr>
+
+14. Which tag is used for table headings?
+    A. <th>
+    B. <tr>
+    C. <td>
+    D. <caption>
+
+-> a. <th>
+
+15. What tag is used to create a numbered list?
+    A. <ul>
+    B. <li>
+    C. <ol>
+    D. <dl>
+
+-> c. <ol>
+
+F. Advanced & Miscellaneous
+16. What does the alt attribute do in <img>?
+    A. Links to another page
+    B. Adds styling
+    C. Provides alternate text
+    D. Defines image size
+
+-> c. Provides alternate text
+
+17. What element provides a short description of a table?
+    A. <thead>
+    B. <caption>
+    C. <title>
+    D. <summary>
+
+-> b. <caption>
+
+18. What is the correct structure of an HTML document?
+    A. html → head → body
+    B. body → head → html
+    C. head → body → html
+    D. html → body → head
+
+-> a. html → head → body
+
+19. Which tag creates line breaks?
+    A. <break>
+    B. <br>
+    C. <lb>
+    D. <line>
+
+-> b. <br>
+
+20. What tool is used to check HTML code for errors and standards?
+    A. HTML Doctor
+    B. Google Inspector
+    C. W3C Validator
+    D. JavaScript Console
+
+-> c. W3C Validator
