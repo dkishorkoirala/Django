@@ -1,0 +1,40 @@
+Build a professional, semantic, and well-structured personal portfolio using only HTML. THis will include:
+-semantic layout
+-navigation with anchor links
+-skills table
+-embedded media
+-contact form
+-internal anchor links and accessibility
+
+Project Sections to Include
+1. Header + Navigation
+Your name or logo as a heading
+
+Navigation bar with anchor links (#about, #skills, #projects, #contact)
+
+2. About Me
+Short bio (use real or dummy info)
+
+A photo (<img>) with alt text
+
+Use a <section> with heading (<h2>)
+
+3. Skills
+A semantic HTML <table> showing at least 3–5 skills and your level
+
+Use <caption>, <thead>, <tbody>
+
+4. Projects or Media
+Embed at least one YouTube video using <iframe> (e.g., tutorial or your intro)
+
+Optionally, embed a map to your location or a file (like a resume)
+
+5. Contact Me Form
+Name, email, message using <form>
+
+Include required, placeholder, textarea, and <fieldset> if you like
+
+6. Footer
+Your copyright
+
+Email or social media links
